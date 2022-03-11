@@ -3,8 +3,8 @@
 
 // this part determines which operation will be performed
 
-#ifndef IfClaudeOfChoise_h
-#define IfClaudeOfChoise_h
+#ifndef IfClauseOfChoise_h
+#define IfClauseOfChoise_h
 
 void ifClauseOfChoice (char op) { 
     using namespace std;
