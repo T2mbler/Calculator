@@ -42,4 +42,13 @@ double ext (double num1, double num2) {
     return pow(num1, num3);
 }
 
+void qE(double a, double b, double c) {
+    using namespace std;
+    double sqrtd = sqrt(pow(b,2) - (4*a*c));
+    double x1 = (-b + sqrtd)/(2*a);
+    double x2 = (-b - sqrtd)/(2*a);
+    cout << "Your roots \t" << x1 << "\t" << x2;
+}
+
+
 #endif
